@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.top {
+  font-size: 40px;
+  font-weight: 200;
+}
+
+.top-text {
+  font-size: 40px;
+  font-weight: 600;
+  padding-bottom: 30px;
+}
+
+.para1 {
+  font-size: 15px;
+  padding-bottom: 50px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.card {
+  max-width: 400px;
+  border-radius: 10px;
+}
+
+.middle-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.super {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 50px;
+  box-shadow: 0 1rem 2rem 0.5rem #dedede;
+  border-top: 0.5rem solid hsl(180, 62%, 55%);
+}
+
+.team {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 50px;
+  margin: 50px;
+  box-shadow: 0 1rem 2rem 0.5rem #dedede;
+  border-top: 0.5rem solid hsl(0, 78%, 62%);
+}
+
+.karma {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 50px;
+  margin: 50px;
+  box-shadow: 0 1rem 2rem 0.5rem #dedede;
+  border-top: 0.5rem solid hsl(34, 97%, 64%);
+}
+
+img {
+  max-width: 80px;
+  max-height: 80px;
+}
+
+.calc {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 50px;
+  box-shadow: 0 1rem 2rem 0.5rem #dedede;
+  border-top: 0.5rem solid hsl(212, 86%, 64%);
+}
+
+.card-title {
+  font-size: 35px;
+}
+
+.para {
+  font-size: 15px;
+  font-weight: 200;
+  padding-bottom: 100px;
+}
+
+.img-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    display: flex;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card {
+    margin: 5px 0px;
+  }
+
+  .team {
+    margin: 5px 0px;
+  }
+
+  .karma {
+    margin: 5px 0px;
+  }
+}
